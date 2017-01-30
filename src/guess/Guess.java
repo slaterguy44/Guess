@@ -22,8 +22,10 @@ public class Guess {
             if (sc.nextInt() == number) {
                 break;
 
-            } else {
-                System.out.println("That's not right");
+            } else if(sc.nextInt() > number){
+                System.out.println("That's too high");
+            }else{
+                System.out.println("That's too low");
             }
         }
 
