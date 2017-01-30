@@ -3,7 +3,8 @@ package guess;
 import java.util.Scanner;
 
 /**
- *more to go
+ * more to go
+ *
  * @author Ben Slater
  */
 public class Guess {
@@ -22,9 +23,9 @@ public class Guess {
             if (sc.nextInt() == number) {
                 break;
 
-            } else if(sc.nextInt() > number){
+            } else if (sc.nextInt() > number) {
                 System.out.println("That's too high");
-            }else{
+            } else {
                 System.out.println("That's too low");
             }
         }
