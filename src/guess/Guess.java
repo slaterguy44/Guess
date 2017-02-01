@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * more to go
- *
+ *this line was added in GitHub
  * @author Ben Slater
  */
 public class Guess {
